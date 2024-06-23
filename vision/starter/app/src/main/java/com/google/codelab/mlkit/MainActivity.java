@@ -216,6 +216,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         return new Pair<>(targetWidth, targetHeight);
     }
 
+    @Override
     public void onItemSelected(AdapterView<?> parent, View v, int position, long id) {
         mGraphicOverlay.clear();
         switch (position) {
